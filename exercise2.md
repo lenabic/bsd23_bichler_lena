@@ -1,6 +1,8 @@
 # Exercise 2: GitHub
 --- 
-Diese Übung dient GitHub und dessen Befehle zu verstehen zu lernen und damit umzugehen.
+Diese Übung dient GitHub und dessen Befehle zu verstehen zu lernen und damit umzugehen. Zu verstehen wie Git funktioniert, und ein erstes Respository anlegen. Auch verschiedenste Befehle ausprobieren und verstehen, was sie tun.
+
+## Befehle
 
 | Befehl      | Beschreibung                                          |
 | ----------- | ----------------------------------------------------- |
@@ -13,3 +15,5 @@ Diese Übung dient GitHub und dessen Befehle zu verstehen zu lernen und damit um
 | git diff    | Zeigt Änderungen seit dem letzten Commit an          |
 | git pull    | Ladet Inhalte aus einem Remote-Repository herunter   |
 | git push    | Ladet Inhalte aus einem lokalen Repository ins zentrale Repository hoch |
+
+

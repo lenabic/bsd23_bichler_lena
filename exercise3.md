@@ -10,6 +10,8 @@ I don't use the LTS version, so it is different than the example photos.
 A new file was added - the target file.
 
 ## mvn compile
-![Screenshot of successfull mvn compile](./resources/images/ex3_2.png)
+![Screenshot of successful mvn compile](./resources/images/ex3_2.png)
 As seen in the screenshot, the mvn compile worked. Initially, there were some complications with JAVA_HOME, because it worked on two seperate terminals/bash, but it didn't work in the Intellij Terminal directly when I first tried it.
 
+## mvn exec:java
+![Screenshot of successful mvn exec:java](./resources/images/ex3_3.png)

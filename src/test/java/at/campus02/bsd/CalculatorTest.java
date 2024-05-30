@@ -77,4 +77,17 @@ public class CalculatorTest {
         assertThrows(ArithmeticException.class, () -> calc.divide(8, 0));
     }
 
+    // Tests for Factorial
+    @Test
+    void testFactorial1() {
+        assertEquals(1, calc.factorial(0));
+    }
+    @Test
+    void testFactorial2() {
+        assertEquals(1, calc.factorial(1));
+    }
+    @Test
+    void testFactorial3() {
+        assertEquals(720, calc.factorial(6));
+    }
 }

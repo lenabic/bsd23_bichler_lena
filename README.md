@@ -42,7 +42,7 @@ If you notice any errors or want to contribute in any way, feel free to let me k
 - [Exercise 1](exercise1.md)
 - [Exercise 2](exercise2.md)
 - [Exercise 3](exercise3.md)
-- Exercise 4
+- [Exercise 4](exercise4.md)
 - Exercise 5
 - Exercise 6
 

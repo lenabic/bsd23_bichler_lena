@@ -26,3 +26,12 @@ In this exercise we are creating our first JUnit Tests and working with maven.
 
 ## Run With Coverage
 ![Run with Coverage Screenshot](./resources/images/ex4_1.png)
+
+## Factorial Not Yet Implemented
+### Testcases
+- `testFactorial1`: Tests if the factorial of 0 is correctly calculated as 1.
+- `testFactorial2`: Tests if the factorial of 1 is correctly calculated as 1.
+- `testFactorial3`: Tests if the factorial of 6 is correctly calculated as 720.
+
+![Screenshot To See if They Failed](./resources/images/ex4_2.png)
+

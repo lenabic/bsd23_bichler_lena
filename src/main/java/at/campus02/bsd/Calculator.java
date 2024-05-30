@@ -22,7 +22,17 @@ public class Calculator {
     }
 
     public double factorial(int number) {
-        return 0;
+        if (number < 0) {
+            return 0; // Always return 0 for negative numbers
+        } else if (number == 0 || number == 1) {
+            return 1; // Factorial of 0 and 1 is always 1
+        } else {
+            int result = 1;
+            for (int i = 2; i <= number; i++) {
+                result *= i;
+            }
+            return result;
+        }
     }
 }
 

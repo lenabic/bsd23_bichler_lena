@@ -1,33 +1,28 @@
 # First JUnit Test
 In this exercise we are creating our first JUnit Tests and working with maven.
 ## My Created JUnit Tests
-We had to create 3 Tests per arithmetic operation, making sure we cover some cases to test
-- Addition
-   I made sure that my calculation is able to calculate two negative numbers together, making sure there is no error there.
 
-   @Test
-    void testAdd2() {
-        assertEquals(-41, calc.add(-36, -5));
-    }
+### Addition
+- `testAdd1`: Testing addition of positive numbers (2 + 3)
+- `testAdd2`: Testing addition of negative numbers (-36 + -5)
+- `testAdd3`: Testing addition of positive and negative numbers (-3 + 58)
 
-- Subtraction
-    Same as previously mentioned, I made sure my calculation could handle a negative result while subrtacting.
+### Subtraction
+- `testMinus1`: Testing subtraction of positive numbers (6 - 5)
+- `testMinus2`: Testing subtraction of negative and negative numbers (60 - 82)
+- `testMinus3`: Testing subtraction of negative numbers (-10 - -86)
 
-    @Test
-    void testMinus2() {
-        assertEquals(-22, calc.minus(60, 82));
-    }
+### Multiplication
+- `testMulti1`: Testing multiplication of positive numbers (3 * 3)
+- `testMulti2`: Testing multiplication by zero (5 * 0)
+- `testMulti3`: Testing multiplication of positive and negative numbers (6 * -8)
+- `testMulti4`: Testing multiplication of negative numbers (-2 * -2)
 
-- Multiplication
-    I made sure that multiplying by 0 provids a correct result.
-
-    @Test
-    void testMulti2() {
-        assertEquals(0, calc.multiply(5, 0));
-    }
-
-- Division
-    Here I    
+### Division
+- `testDiv1`: Testing division of positive numbers (4 / 2)
+- `testDiv2`: Testing division of negative numbers (-72 / -9)
+- `testDiv3`: Testing division of positive and negative numbers (6 / -6)
+- `testDiv4`: Testing division by zero (8 / 0, expects ArithmeticException)
 
 ## Run With Coverage
 ![Run with Coverage Screenshot](./resources/images/ex4_1.png)

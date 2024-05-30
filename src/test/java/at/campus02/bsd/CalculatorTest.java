@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
     private Calculator calc;
@@ -14,7 +15,7 @@ public class CalculatorTest {
 
     // Tests for Addition
     @Test
-    void testAdd() {
+    void testAdd1() {
         assertEquals(5, calc.add(2, 3));
     }
     @Test
@@ -23,12 +24,12 @@ public class CalculatorTest {
     }
     @Test
     void testAdd3() {
-        assertEquals(55, calc.add(23,32));
+        assertEquals(55, calc.add(-3,58));
     }
 
     // Tests for Subtraction
     @Test
-    void testMinus() {
+    void testMinus1() {
         assertEquals(1, calc.minus(6, 5));
     }
     @Test
@@ -37,12 +38,12 @@ public class CalculatorTest {
     }
     @Test
     void testMinus3() {
-        assertEquals(14, calc.minus(100, 86));
+        assertEquals(76, calc.minus(-10, -86));
     }
 
     // Tests for Multiplication
     @Test
-    void testMulti() {
+    void testMulti1() {
         assertEquals(9, calc.multiply(3, 3));
     }
     @Test
@@ -51,21 +52,29 @@ public class CalculatorTest {
     }
     @Test
     void testMulti3() {
-        assertEquals(48, calc.multiply(6, 8));
+        assertEquals(-48, calc.multiply(6, -8));
+    }
+    @Test
+    void testMulti4() {
+        assertEquals(4, calc.multiply(-2, -2));
     }
 
     // Tests for Division
     @Test
-    void testDiv() {
+    void testDiv1() {
         assertEquals(2, calc.divide(4, 2));
     }
     @Test
     void testDiv2() {
-        assertEquals(8, calc.divide(72, 9));
+        assertEquals(8, calc.divide(-72, -9));
     }
     @Test
     void testDiv3() {
-        assertEquals(1, calc.divide(6, 6));
+        assertEquals(-1, calc.divide(6, -6));
+    }
+    @Test
+    void testDiv4() {
+        assertThrows(ArithmeticException.class, () -> calc.divide(8, 0));
     }
 
 }

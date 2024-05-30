@@ -35,3 +35,6 @@ In this exercise we are creating our first JUnit Tests and working with maven.
 
 ![Screenshot To See if They Failed](./resources/images/ex4_2.png)
 
+## After Correct Implementation
+After the Method was correctly implemented everything worked really well.
+![Screenshot of mvn test](./resources/images/ex4_3.png)

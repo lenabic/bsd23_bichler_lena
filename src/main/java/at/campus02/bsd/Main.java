@@ -1,10 +1,16 @@
 package at.campus02.bsd;
 
 import at.campus02.bsd.Calculator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class Main {
+    private static Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
+        logger.info("This is an info message.");
+        logger.error("This is an error message.");
+
         if (args.length < 2) {
             return;
         }

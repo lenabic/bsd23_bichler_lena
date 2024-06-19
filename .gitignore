@@ -2,3 +2,5 @@
 *.pdf
 .idea/
 /target/
+.log/
+*.log

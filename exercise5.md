@@ -30,3 +30,9 @@ Log4J offers extensive configuration options:
 - **Rolling Policies**: Define how log files are rolled over or archived based on size, time, etc.
 
 These configurations can be specified in a `log4j2.xml` file or programmatically.
+
+## Images
+![logging branch](./resources/images/ex5_1.png)
+![logger console output](./resources/images/ex5_2.png)
+![log4j2.xml](./resources/images/ex5_3.png)
+![documentation branch](./resources/images/ex5_4.png)

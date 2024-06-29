@@ -34,7 +34,7 @@ Once you start the programm, a menu will be opened on your command line. You can
 If you notice any errors or want to contribute in any way, feel free to let me know by contacting me via [email](lena.bichler@edu.campus02.at).
 
 ## Information About The Author
-- GitHub-Profile: [lenabic](https://github.com/lenabic)
+- GitHub-Profile: [lenabic](https://github.com/lenabic.git)
 - University: [FH Campus 02](https://www.campus02.at/?gad_source=1&gclid=Cj0KCQjw0MexBhD3ARIsAEI3WHKEcuIK9Ok3oaOM4Q6BCJTeTZv-zlwaWnNEtdwMTej6gNLiLgM62tYaAgYTEALw_wcB)
 
 ---
@@ -44,5 +44,5 @@ If you notice any errors or want to contribute in any way, feel free to let me k
 - [Exercise 3](exercise3.md)
 - [Exercise 4](exercise4.md)
 - [Exercise 5](exercise5.md)
-- Exercise 6
+- [Exercise 6](exercise6.md)
 
